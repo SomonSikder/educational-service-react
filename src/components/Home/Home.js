@@ -1,20 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Course from '../Courses/Course';
+import AllCourses from '../Hook/AllCourses';
 const Home = () => {
-    const [allCourses, setallCourses] = useState()
-    useEffect(()=>{
-        fetch('./data.JSON')
-            .then(res => res.json())
-            .then(data => setallCourses(data))
-    },[])
+    const [courses] = AllCourses()
     return (
         <div>
             <h2 className='text-center'>Best Seler Course</h2>
-            {
-                console.log(allCourses),
-                allCourses.map(course => <Course course={course}></Course>)
-                
-            }
+            <div className='container'>
+                <div className="row">
+                    <div className="col-12 col-md-4 col-lg-3">
+                        {
+                            courses.slice(0,4).map(course => <Course course={course}></Course>)
+                        }
+                    </div>
+                   
+                </div>
+            </div>
         </div>
     );
 };
