@@ -4,6 +4,7 @@ const Tutorials = () => {
     return (
         <div>
             <h2>Tutorials page</h2>
+            {/* <iframe></iframe> */}
         </div>
     );
 };
