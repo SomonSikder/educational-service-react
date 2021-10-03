@@ -1,0 +1,13 @@
+.not-found {
+  margin: 0 auto;
+  text-align: center;
+  margin: 2rem;
+}
+img {
+  width: 400px;
+}
+
+span {
+  color: red;
+  font-size: 30px;
+}

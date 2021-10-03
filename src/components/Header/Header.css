@@ -1,0 +1,10 @@
+.nav-item {
+  text-decoration: none;
+  color: white;
+  margin: 5px 15px;
+  padding: 5px;
+  font-weight: 200;
+}
+.nav-item:hover {
+  color: whitesmoke;
+}
