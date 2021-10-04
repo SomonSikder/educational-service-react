@@ -1,8 +1,10 @@
+// all necessary file imported
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import YouTube from 'react-youtube';
 
 const Tutorials = () => {
+    // videos width and height fix
     const opts = {
         height: '315',
         width: '250',

@@ -1,3 +1,4 @@
+// all necessary file imported
 import React from 'react';
 import { CardGroup } from 'react-bootstrap';
 import Course from '../Courses/Course';
@@ -5,6 +6,7 @@ import AllCourses from '../Hook/AllCourses';
 import ControlledCarousel from '../SliderImg/Slider';
 
 const Home = () => {
+    // get all course data 
     const [courses] = AllCourses()
     return (
         <div>

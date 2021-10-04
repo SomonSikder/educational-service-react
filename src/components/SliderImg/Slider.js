@@ -1,7 +1,10 @@
+// all necessary file imported
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import img2 from '../SliderImg/img-2.png';
 import img3 from '../SliderImg/img-3.jpg';
+
+// Img slider function
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
   

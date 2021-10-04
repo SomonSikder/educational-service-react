@@ -1,5 +1,7 @@
+// all necessary file imported
 import { useEffect, useState } from 'react';
 
+// fatching data from local json file
 const AllCourses = () => {
     const [courses, setCourses] = useState([])
     useEffect(()=>{

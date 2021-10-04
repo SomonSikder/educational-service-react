@@ -1,9 +1,11 @@
+// all necessary file imported
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import AllCourses from '../Hook/AllCourses';
 
 
 const AboutUs = () => {
+    // get course details
     const [courses] = AllCourses()
 
     return (
@@ -20,6 +22,7 @@ const AboutUs = () => {
                        <h4>Our Total Students: <span>1500</span></h4> 
                     </Col>
                 </Row>
+                
                 <div>
                     <p>IELTS is the world’s most popular English language test. If you’re looking to work, study or live abroad then taking an IELTS test can help you make that dream come true.</p>
                     <br />

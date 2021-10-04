@@ -1,8 +1,11 @@
+// all necessary file imported
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+
 const Header = () => {
+    // nav item active style
     const activeStyle = {
         "borderBottom": "1px solid white"
     }

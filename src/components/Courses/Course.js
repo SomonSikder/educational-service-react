@@ -1,8 +1,10 @@
+// all necessary file imported
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 
 const Course = (props) => {
+    // get data from Home file
     const {name, price, img} = props.course
     return (
         <div className='m-3 shadow p-3 mb-5 bg-body rounded'>

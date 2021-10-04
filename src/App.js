@@ -1,3 +1,4 @@
+// all necessary file imported
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AboutUs from './components/AboutUs/AboutUs';
@@ -11,6 +12,7 @@ import Tutorials from './components/Tutorials/Tutorials';
 
 function App() {
   return (
+    // Routing Part
     <Router>
       <Header></Header>
       <Switch>

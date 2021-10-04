@@ -1,3 +1,4 @@
+// all necessary file imported
 import React from 'react';
 import { CardGroup } from 'react-bootstrap';
 import Course from '../Courses/Course';
@@ -6,6 +7,7 @@ import AllCourses from '../Hook/AllCourses';
 
 
 const Services = () => {
+    // get all course data 
     const [courses] = AllCourses()
 
     return (
