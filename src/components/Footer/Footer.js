@@ -22,7 +22,7 @@ const Footer = () => {
                     </Col>
                     <Col xs={6} md={4}>
                         <h5>Contact Us</h5>
-                        <p>somonSikder777@gmail.com</p>
+                        <p>somonsikder777@gmail.com</p>
                         <p>+8801626038733</p>
                     </Col>
                 </Row>
