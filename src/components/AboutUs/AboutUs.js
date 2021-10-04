@@ -11,13 +11,13 @@ const AboutUs = () => {
             <Container>
                 <Row>
                     <Col className='shadow p-3 m-3 bg-body rounded'>
-                       <h4>Out Total Courses: <span>{courses.length}</span></h4> 
+                       <h4>Our Total Courses: <span>{courses.length}</span></h4> 
                     </Col>
                     <Col className='shadow p-3 m-3 bg-body rounded'>
-                       <h4>Out Total Teachers: <span>20</span></h4> 
+                       <h4>Our Total Teachers: <span>20</span></h4> 
                     </Col>
                     <Col className='shadow p-3 m-3 bg-body rounded'>
-                       <h4>Out Total Students: <span>1500</span></h4> 
+                       <h4>Our Total Students: <span>1500</span></h4> 
                     </Col>
                 </Row>
                 <div>
